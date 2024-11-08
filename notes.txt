@@ -1,0 +1,28 @@
+  {/* <p>Hi your age is {state.age}</p>
+<button onClick={()=>dispatch({type:"increment"})}>Increment</button> */}
+// const [count, setCount] = useState(5)
+  //useeffect
+
+  //usereducer
+
+  // function reducer(state,action)
+  // {
+  //   if(action.type === "increment")
+  //   {
+  //     return { age: state.age+1 };
+  //   }
+  // }
+
+  // const [state, dispatch] = useReducer(reducer, { age:34 })
+
+  // const[userstate, userdispatch] = useReducer(reducer, {
+    //   firstname:"First name",
+    //   lastname:"Last name",
+    //   email:"abc@xyz.com",
+    //   country:"India",
+    //   gender:"male",
+    //   isMarried:true
+    // }) 
+
+    <p>Hi your age is {state.age}</p>
+      <button onClick={()=>dispatch({type:"increment"})}>Increment</button>
